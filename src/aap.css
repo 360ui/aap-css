@@ -1,0 +1,206 @@
+/* 
+
+AAP CSS is a open source styling.
+
+*/
+
+.btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:active {
+  background-color: rgba(97, 94, 94, 0.356);
+  border: black;
+}
+
+.trn-1 {
+  transition-duration: 0.1s;
+}
+.trn-2 {
+  transition-duration: 0.3s;
+}
+.trn-3 {
+  transition-duration: 0.5s;
+}
+.trn-4 {
+  transition-duration: 0.8s;
+}
+.trn-5 {
+  transition-duration: 1s;
+}
+
+/* 
+.hv-white {
+  background-color: #fdfdfd;
+}
+.hv-green {
+  background-color: #4caf50;
+}
+.hv-blue {
+  background-color: #008cba;
+}
+.hv-red {
+  background-color: #f44336;
+}
+.hv-gray {
+  background-color: #555555;
+}
+.hv-black {
+  background-color: #000000;
+} */
+
+.hv-white:hover {
+  background-color: #fdfdfd;
+}
+.hv-green:hover {
+  background-color: #4caf50;
+}
+.hv-blue:hover {
+  background-color: #008cba;
+}
+.hv-red:hover {
+  background-color: #f44336;
+}
+.hv-gray:hover {
+  background-color: #555555;
+}
+.hv-black:hover {
+  background-color: #000000;
+}
+
+.bg-white {
+  background-color: #fdfdfd;
+}
+.bg-green {
+  background-color: #4caf50;
+}
+.bg-blue {
+  background-color: #008cba;
+}
+.bg-red {
+  background-color: #f44336;
+}
+.bg-gray {
+  background-color: #555555;
+}
+.bg-black {
+  background-color: #000000;
+}
+
+.fg-white {
+  color: #fdfdfd;
+}
+.fg-green {
+  color: #4caf50;
+}
+.fg-blue {
+  color: #008cba;
+}
+.fg-red {
+  color: #f44336;
+}
+.fg-gray {
+  color: #e7e7e7;
+  color: black;
+}
+.fg-black {
+  color: #555555;
+}
+
+.fs-1 {
+  font-size: 10px;
+}
+.fs-2 {
+  font-size: 12px;
+}
+.fs-3 {
+  font-size: 16px;
+}
+.fs-4 {
+  font-size: 25px;
+}
+.fs-5 {
+  font-size: 30px;
+}
+
+.bdr-1 {
+  border-radius: 2px;
+}
+.bdr-2 {
+  border-radius: 4px;
+}
+.bdr-3 {
+  border-radius: 8px;
+}
+.bdr-4 {
+  border-radius: 12px;
+}
+.bdr-5 {
+  border-radius: 50%;
+}
+
+.br-off {
+  border: none;
+}
+.br-off:active {
+  background-color: rgba(97, 94, 94, 0.356);
+}
+/* .br-on {
+  border: rgba(0, 0, 0, 0.19);
+} */
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.w-1 {width: 110px;}
+.w-2 {width: 25%;}
+.w-3 {width: 50%;}
+.w-4 {width: 75%;}
+.w-5 {width: 100%;}
+
+.m-1 {margin: 10px;}
+.m-2 {margin: 15px;}
+.m-3 {margin: 20px;}
+.m-4 {margin: 25px;}
+.m-5 {margin: 30px;}
+
+.mx-1 {margin-left: 10px; margin-right: 10px;}
+.mx-2 {margin-left: 15px; margin-right: 15px;}
+.mx-3 {margin-left: 20px; margin-right: 20px;}
+.mx-4 {margin-left: 25px; margin-right: 25px;}
+.mx-5 {margin-left: 30px; margin-right: 30px;}
+
+.my-1 {margin-top: 10px; margin-bottom: 10px;}
+.my-2 {margin-top: 15px; margin-bottom: 15px;}
+.my-3 {margin-top: 20px; margin-bottom: 20px;}
+.my-4 {margin-top: 25px; margin-bottom: 25px;}
+.my-5 {margin-top: 30px; margin-bottom: 30px;}
+
+.p-1 {padding: 110px;}
+.p-2 {padding: 25vw;}
+.p-3 {padding: 50%;}
+.p-4 {padding: 75%;}
+.p-5 {padding: 100%;}
